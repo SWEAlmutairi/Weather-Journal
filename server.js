@@ -30,8 +30,9 @@ function listening() {
 
 // GET route that returns the projectData
 app.get('/projectData' , (req, res) => {
-    res.send(projectData)
-    console.log(projectData);
+    if (projectData !== null)
+    res.send(projectData);
+    // console.log(projectData);
 });
 
 // POST route that adds incoming data to projectData
