@@ -1,7 +1,6 @@
 /* Global Variables */
 // Personal API Key for OpenWeatherMap API
-const API_KEY = `&appid=c236e2152aef11a335e4248e4b258888`;
-// `${user_key}&units=metric`
+const API_KEY = `&appid=${user_key}&units=metric`;
 const API_BASE = 'https://api.openweathermap.org/data/2.5/weather?';
 
 // Select HTML elements
